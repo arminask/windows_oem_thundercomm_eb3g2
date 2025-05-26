@@ -23,7 +23,7 @@
             <PlainText>true</PlainText>
         </Password>
         <Enabled>true</Enabled>
-        <Username>EB3G2 Edge AI Station</Username>
+        <Username>EB3G2</Username>
       </AutoLogon>
       <OOBE>
         <HideEULAPage>true</HideEULAPage>
@@ -43,14 +43,14 @@
                 <PlainText>true</PlainText>
             </Password>
             <Description></Description>
-            <DisplayName>EB3G2 Edge AI Station</DisplayName>
+            <DisplayName>EB3G2</DisplayName>
             <Group>Administrators</Group>
-            <Name>EB3G2 Edge AI Station</Name>
+            <Name>EB3G2</Name>
           </LocalAccount>
         </LocalAccounts>
       </UserAccounts>
       <RegisteredOrganization></RegisteredOrganization>
-      <RegisteredOwner>EB3G2 Edge AI Station</RegisteredOwner>
+      <RegisteredOwner>EB3G2</RegisteredOwner>
       <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
       <FirstLogonCommands>
         <SynchronousCommand wcm:action="add">
@@ -81,8 +81,9 @@
         <SynchronousCommand wcm:action="add">
           <Description>Disable Password Expiration</Description>
           <Order>6</Order>
-          <CommandLine>wmic UserAccount where Name="EB3G2 Edge AI Station" set PasswordExpires=False</CommandLine>
+          <CommandLine>wmic UserAccount where Name="EB3G2" set PasswordExpires=False</CommandLine>
         </SynchronousCommand>
       </FirstLogonCommands>
+	</component>
   </settings>
 </unattend>
